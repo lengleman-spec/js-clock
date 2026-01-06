@@ -25,7 +25,9 @@
       let sec = document.getElementById("sec");
 
       let currentTime = new Date();
-      console.log(currentTime.getHours());
+      hrs.innerHTML = currentTime.getHours();
+      min.innerHTML = currentTime.getMinutes();
+      sec.innerHTML = currentTime.getSeconds();
     </script>
   </body>
 </html>
